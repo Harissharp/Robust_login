@@ -66,7 +66,7 @@ function setLoggedStatus($result){
 		$status = "loggedOut";
 		//echo"<h3> hi this is incorrect </h3>";
 		$_SESSION["logged?"]=$status;
-		header("Location: index.html");
+		header("Location: index.php");
 	}
 
 }
